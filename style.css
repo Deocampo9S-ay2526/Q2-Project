@@ -1,0 +1,44 @@
+body {
+         background-image:url(DSC06616.webp);
+         } .container {
+            box-shadow: -37px 19px 121px 0px rgba(0,0,0,0.75);
+            border-radius: 20px;
+         } h1 {
+            color: #1B5299;
+            font-family: "Archivo Black", sans-serif;
+            font-weight: 400;
+            text-align: center;
+
+     }
+
+          h2 {
+            color: #1B5299;
+            font-family: "Archivo Black", sans-serif;
+            font-weight: 400;
+            text-align: center;
+
+        }
+
+          h3 {
+            color: #1B5299; 
+            font-family: "Archivo Black", sans-serif;
+            font-weight: 400;
+            
+        }
+
+          p {
+            color: grey;
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 200;
+            font-style: "Inter", sans-serif;
+        }
+            .col-md-5 {
+         background-color: white;
+         padding: 20px;
+         border-radius: 10px;
+         margin: auto; 
+       } p {
+         font-family: "Inter", sans-serif;
+            
+       }

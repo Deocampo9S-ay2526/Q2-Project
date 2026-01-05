@@ -3,111 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Q2-Project</title>
+    <title>Nav-Bar</title>
+    <!-- BOOTSTRAP-CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- BOOTSTRAP-JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
-     <!-- BOOTSTRAP CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
-    <!-- BOOTSTRAP JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-
-<link rel="stylesheet" href="style.css">
-
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
 </head>
 <body>
-
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/e01fd0f1-eda0-443b-ab56-74f748469f01/Header.png?format=1500w" alt="Logo" style="width:300px;">
+                <img src="Header.webp" alt="Logo" style="width:300px;">
             </a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" >
                 <span class="navbar-toggler-icon"></span>
-            </button>   
+            </button>  
 
        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav me-auto mb-2 mb-1g-0">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#home-section">Home</a>
-                </li>
-                
-                <li class="nav-item">
-                    <a class="nav-link" href="#about-section">Courses Offered</a>
-                </li>
+         <ul class="navbar-nav me-auto mb-2 mb-1g-0">
+            <li class="nav-item">
+                <a class="nav-link active" href="#home-section">Home
+                </a>
+            </li>
+             
+            <li>
+            <a class="nav-link" href="#about-section">
+                Coursed Offered
+            </a>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact-section">Enroll</a>
-                </li>
+            </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact-section">Contact Us</a>
-                </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact-section">Enroll
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact-section">Contact Us
+                </a>
+            </li>
 
-            </ul>
-            
-            <form class="d-flex">
-                <input class="form-control me-2" type="text" placeholder="Search">
-                <button class="btn btn-primary" type="submit">Search</button>   
-            </form>
-        </div>
-    </nav><br>
+         </ul>
+         <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search">
+            <button class="btn btn-primary" type="submit">Search</button>   
+         </form>
 
-     <div class="container-fluid mt-3">
-
-        <div class="container">
-            <div class="vertical"></div>
-            <div class="horizontal"></div>
-            <div class="inline"></div>
-            <div class="responsive"></div>
-        </div>
+    </nav>
 
     </div>
 
-   <div class="vertical-layout bg-light p-3 mb-3 rounded">
-    <h2>Contact Us</h2>
-        <form>
-            <!-- FULLNAME -->
-             <div class="Fullname mb-3">
-                <label class="form-label" for="inputFullname">Full name</label>
-                <input type="fullname" class="form-control"
+        <div class="container-fluid mt-3">
+            <div class="container p-5 mt-3 bg-light text-dark">
+              <center><h1>O.B. MONTESSORI</h1></center>
+               <center><p>At Operation Brotherhood Montessori Center, each child is nurtured in the holistic method of Dr. Maria Montessori.</p></center>
+               <center><h1>__________________________________</h1></center>
+                <center><h1>EDUCATING FUTURE LEADERS</h1></center>
+                <img src="O.B.webp" alt="OBMC Logo" style="display: block; margin-left: auto; margin-right: auto; width: 500px; border-radius: 25px;">
 
-                id="inputFullname" placeholder="Enter your full name">
-
-            </div>
-            <!-- EMAIL -->
-            <div class="email mb-3">
-                <label class="form-label" for="inputEmail">Email</label>
-                <input type="email" class="form-control" 
-
-                id="inputEmail" placeholder="Enter your email">
-            </div>
-
-            <!-- SUBJECT -->
-            <div class="subject mb-3">
-                <label class="form-label" for="inputSubject">Subject</label>
-                <input type="subject" class="form-control" 
-
-                id="inputSubject" placeholder="Enter your Subject">
-            </div>
+                <center><h3>Welcome to the O.B. Montessori Center in the Philippines!</h3></center>
+                <center><p>We are a progressive pre-k to 12 co-educational school, offering a viable alternative to international schools. At OBMC, we blend tradition and innovation to prepare a child for life.</p></center>
+                <center><p>Our mission is to transform our students into self-developing and productive individuals who can succeed, direct, and influence the future of an ever-changing world. </p></center>
+                <center><p>Explore our programs and discover the vibrant community that makes OBMC a unique place for a child to grow and develop.</p></center>
+        
 
 
-            <!-- BUTTON -->
-                <button type="submit" class="btn btn-primary">Submit</button>   
+           
+          </div>
+        </div>
 
-        </form>
-    </div>
+        </div>
+        </div>
 
-    <footer class="text-center py-3 bg-dark text-light mt-auto fixed-bottom">
-        &copy; 2025 Copyright
-    </footer>
+
+        <footer class="text-center py-3 bg-light text-dark mt-5">
+                © 2025 O.B. Montessori Center
+        </footer>   
 
 </body>
 </html>
